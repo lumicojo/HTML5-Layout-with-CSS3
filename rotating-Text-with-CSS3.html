@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Rotating Text in HTML5</title>
+      <style>
+        h2 {
+          /* font-family: Gotham; "Helvetica Neue", Helvetica, Arial, sans-serf;
+          font-size 16px; */
+          font-family: Georgia, 'Times New Roman', Times, serif;
+          font-size: 16px;
+        }
+        .wraparound {
+          float: right;
+          margin-left: 20px;
+        }
+        .rotate {
+          /* IE */
+          -ms-transform: rotate(+40deg);  /* or -ms-transform: rotate( -90deg) */
+          /* Chrome, Safari, Firefox, Opera */
+          -webkit-transform: rotate(+40deg);  /* or  -webkit-transform: rotate( -90deg) */
+          /* Standard syntax */
+          transform: rotate(+40deg);
+        }
+      </style>
+  </head>
+    <body>
+      /* This should properly rotate the text inside the h2 element by 40 degrees clockwise in supported browsers.*/
+      <div class="rotate" style="width: 300px; height: 200px; text-align: center;">
+        <h2>Rotate</h2>
+      </div>
+    </body>
+</html>
