@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8"/>
+    <title> Using CSS3 Relative Positioning in HTML5 Document</title>
+    <style>
+      #div1 {
+        font-family: Calibri;
+        font-size: 30pt;
+        color: #0094ff;
+        width: 250px;
+        height: 250px;
+        background-color: #ffd800;
+        border: 1px solid black;
+        text-align: center;
+        line-height: 250px;
+        /* position: absolute; */
+        position: relative;  /* relative is normal position up left conner*/
+        left: 0px;
+        top: 0px;
+        z-index: 1000;
+
+      }
+      #div2 {
+        font-family: Calibri;
+        font-size: 30pt;
+        color: #0094ff;
+        width: 250px;
+        height: 250px;
+        background-color: #ffd800;
+        border: 1px solid black;
+        text-align: center;
+        line-height: 250px;
+        /* position: absolute; */
+        position: relative;
+        top: 50px;
+        left: 100px;
+        /* z-index: 10; */
+      }
+    </style>
+  </head>
+  <body>
+    <div id="div1">This is a DIV</div>
+    <div id="div2">This is a DIV</div>
+  </body>
+</html>

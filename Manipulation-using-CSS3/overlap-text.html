@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8"/>
+    <title> Using CSS3 to Overlap Text on HTML5 Image</title>
+    <style>
+      #overlap {
+        font-family: Calibri;
+        font-size: 50pt;
+        color: #ffd800;
+        font-weight: bold;
+        position: absolute;
+        top:0px;
+        left:0px;
+        /* use z-index: to put something on the top to the page */
+        z-index: 1000;
+      }
+      /* the logo is going to be on the top to the text */
+      #logo {
+        position: absolute;
+        top: 70px;
+        left: 30px;
+        /* use z-index: to modify things */
+        /* z-index: -1; */
+      }
+
+    </style>
+  </head>
+  <body>
+    <!-- when you move the img src on the top it will put the logo on the back to the text -->
+    <img src="diallonics_logo.png" id="logo"/>
+   <p id="overlap">Diallonics</p>
+       <!-- when you move the img src on the bottom of (p id=) it will put the logo on the top of the text -->
+        <!-- <img src="diallonics_logo.png" id="logo"/> -->
+  </body>
+</html>
