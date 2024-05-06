@@ -1,0 +1,87 @@
+/* a: is hyperlink */
+a:link {
+  color:#ffd800;
+  text-align: center;
+  font-family: Arial;
+  font-weight: bolder;
+  font-size: 24px;
+}
+#wrapper {
+  width: 900px;
+  height: 800px;
+  margin: 0 auto;
+}
+
+#banner {
+  width: 900px;
+  height: 100px;
+  background-color: #ff6a00;
+  display: table-cell;
+  vertical-align: middle;
+}
+/* the nav it starts with # */
+#nav {
+  background-color: #0ff;
+  width: 900px;
+  height: 50px;
+  display:table;
+}
+
+#home {
+  width: 150px;
+  height: 50px;
+  float: left;
+  line-height: 50px;
+}
+#home:hover {
+  background-color: #ffd800;
+  color: #ffffff;
+  display: table-cell;
+  vertical-align: middle;
+}
+#faq {
+  width: 150px;
+  height: 50px;
+  float: left;
+  line-height: 50px;
+}
+#faq:hover {
+  background-color: #ffd800;
+  color: #ffffff;
+}
+#about {
+  width: 150px;
+  height: 50px;
+  float: left;
+  line-height: 50px;
+}
+#about:hover {
+  background-color: #ffd800;
+  color: #ffffff;
+}
+#careers {
+  width: 150px;
+  height: 50px;
+  float: left;
+  line-height: 50px;
+}
+#careers:hover {
+  background-color: #ffd800;
+  color: #ffffff;
+}
+#contact {
+  width: 150px;
+  height: 50px;
+  float: left;
+  line-height: 50px;
+}
+#contact:hover {
+  background-color: #ffd800;
+  color: #ffffff;
+}
+#content {
+  background-color: #b6ff00; width: 900px; height: 700px;
+}
+#footer {
+  background-color: #808080; width: 900px; height: 100px;
+}

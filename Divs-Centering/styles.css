@@ -1,0 +1,77 @@
+/* a: is hyperlink */
+a:link {
+  color:#ffd800;
+  text-align: center;
+  font-family: Arial;
+  font-weight: bolder;
+  font-size: 24px;
+}
+#wrapper {
+  width: 900px;
+  height: 800px;
+  margin: 0 auto;
+}
+
+#banner {
+  width: 900px;
+  height: 100px;
+  background-color: #ff6a00;
+}
+/* the nav it starts with # */
+#nav {
+  background-color: #0ff;
+  width: 900px;
+  height: 50px;
+}
+/* this is a class it starts with period */
+.home {
+  width: 150px;
+  height: 50px;
+  float: left;
+}
+div.home:hover {
+  background-color: #ffd800;
+  color: #ffffff;
+}
+.faq {
+  width: 150px;
+  height: 50px;
+  float: left;
+}
+div.faq:hover {
+  background-color: #ffd800;
+  color: #ffffff;
+}
+.about {
+  width: 150px;
+  height: 50px;
+  float: left;
+}
+div.about:hover {
+  background-color: #ffd800;
+  color: #ffffff;
+}
+.careers {
+  width: 150px;
+  height: 50px;
+  float: left;
+}
+div.careers:hover {
+  background-color: #ffd800;
+  color: #ffffff;
+}
+.contact {
+  width: 150px;
+  height: 50px;
+  float: left;
+}
+div.contact:hover {
+  background-color: #ffd800;
+  color: #ffffff;
+}
+#content {
+  background-color: #b6ff00; width: 900px; height: 700px;
+}
+#footer {
+  background-color: #808080; width: 900px; height: 100px;
+}
