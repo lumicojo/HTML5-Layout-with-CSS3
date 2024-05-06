@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+      <meta charset="utf-8"/>
+      <title>Using CSS3 to turn HTML5 Div's into Buttons</title>
+    <style>
+      /* using css hover command this will change the color when hover over buttons */
+      div.home:hover {
+        background-color: #fff;
+      }
+      div.faq:hover {
+        background-color: #fff;
+      }
+      div.about:hover {
+        background-color: #fff;
+      }
+      div.careers:hover {
+        background-color: #fff;
+      }
+      div.contact:hover {
+        background-color: #fff;
+      }
+    </style>
+    </head>
+  <body>
+    <!-- Main wrapper-->
+    <div id="wrapper" style="width: 1280px; height: 700px;">
+    <!-- Page banner-->
+      <div id="banner" style="width: 12800px; height: 100px; background-color:
+      #ff6a00;">Banner</div>
+    <!-- Navigation section. First DIV is the wrapper-->
+      <div id="nav" style="background-color: #0ff; width: 180px; height:
+      400px; float: left;">
+          <!-- Home button-->
+          <a href="#"><div class="home" style="width: 180px; height: 50px;">Home</div></a>
+          <!-- FOQ button-->
+          <a href="faq.html"><div class="faq" style="width: 180px; height: 50px;">FAQ</div></a>
+          <!-- About button-->
+          <a href="about.html"><div class="about" style="width: 180px; height: 50px;">About</div></a>
+          <!-- Careers button-->
+          <a href="careers.html"><div class="careers" style="width: 180px; height: 50px;">Careers</div></a>
+          <!-- Contact button-->
+          <a href="contact.htm"><div class="contact" style="width: 180px; height: 50px;">Contact US</div></a>
+      </div>
+      <!-- End navigation section-->
+      <!-- Content section-->
+      <div id="content" style="background-color: #b6ff00; width: 1280px;
+      height: 400px;">Content</div>
+      <!-- Footer section for legal and additional links-->
+      <div id="footer" style="background-color: #808080; width: 1280px;
+      height: 100px;">Footer</div>
+    </div>
+
+
+  </body>
+</html>
+
