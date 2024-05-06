@@ -1,0 +1,59 @@
+#banner {
+  width: 900px;
+  height: 100px;
+  background-color: #ff6a00;
+}
+/* the nav it starts with # */
+#nav {
+  background-color: #0ff;
+  width: 900px;
+  height: 50px;
+}
+/* this is a class it starts with period */
+.home {
+  width: 150px;
+  height: 50px;
+  float: left;
+}
+div.home:hover {
+  background-color: #fff;
+  color: #ffd800;
+}
+.faq {
+  width: 150px;
+  height: 50px;
+  float: left;
+}
+div.faq:hover {
+  background-color: #fff;
+}
+.about {
+  width: 150px;
+  height: 50px;
+  float: left;
+}
+div.about:hover {
+  background-color: #fff;
+}
+.careers {
+  width: 150px;
+  height: 50px;
+  float: left;
+}
+div.careers:hover {
+  background-color: #fff;
+}
+.contact {
+  width: 150px;
+  height: 50px;
+  float: left;
+}
+div.contact:hover {
+  background-color: #fff;
+}
+#content {
+  background-color: #b6ff00; width: 900px; height: 700px;
+}
+#footer {
+  background-color: #808080; width: 900px; height: 100px;
+}
