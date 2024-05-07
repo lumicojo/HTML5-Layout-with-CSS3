@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+      <meta charset="utf-8" />
+      <title>Applying a Gradient Fill to HTML5 List</title>
+    <style>
+      a {
+        text-decoration: none;
+      }
+      nav {
+        font-family: Calibri;
+        font-size: 14pt;
+        color: #b200ff;
+        text-decoration: none;
+      }
+
+      nav ul ul {
+        display: none;
+      }
+      nav ul li:hover > ul {
+        display: block;
+      }
+      /* This is how you use GRADIENT in HTML5 and CSS*/
+      /* we add another nav ul and everything under the nav will be affected of this nav
+            this will remove the bullets it turn of any decorations*/
+      nav ul {
+        list-style: none;
+        background: linear-gradient(top,#ffd800 0%,#ff6a00 200%);
+        /* this is for microsoft explore 9 and 10 */
+        background: -ms-linear-gradient(top,#ffd800 0%,#ff6a00 200%);
+          /* this is for chrome and safari */
+        background: -webkit-linear-gradient(top,#ffd800 0%,#ff6a00 200%);
+        /* this is for mozilla */
+        background: -moz-linear-gradient(top,#ffd800 0%,#ff6a00 200%);
+        /* this give you the shadow on all lists */
+        box-shadow: 0px 5px 15px #808080;
+        /* this move a little bit next to the object */
+        padding: 0 20px;
+        /* border radius it gives you effects nice round conners on the boxes */
+        border-radius: 10px;
+        /* this shrink the size of it because we put relative position */
+        position: relative;
+        display: inline table;
+      }
+    </style>
+    </head>
+    <body>
+      <nav>
+        <!-- here we have 3 level of list in nav and animated with css-->
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">About Us</a>
+            <ul>
+              <li><a href="#">The Company</a></li>
+              <li><a href="#">The People</a>
+              <ul>
+                <li><a href="#">Our Employees</a></li>
+                <li><a href="#" class="blue">Our Management</a></li>
+              </ul>
+              </li>
+                  <li><a href="#">The Board</a></li>
+                  <li><a href="#">Our History</a></li>
+                </ul>
+              </li>
+          <li><a href="#">FAQ</a></li>
+          <li><a href="#">Careers</a></li>
+          <li><a href="#">Contact Us</a></li>
+        </ul>
+      </nav>
+    </body>
+</html>
