@@ -1,0 +1,32 @@
+1 Set up the overall layout of the home page. To do this, create separate DIV containers for formatting for each of the following sections:
+
+The banner section that will hold the organization title and mission, as well as a logo image eventually.
+A main menu or navigation section that contains a flyout menu with main and sublinks to other pages within the web site.
+A content section where all the main information about that section can be displayed. It will also contain menu that can be used to navigate to specialized areas of the web site where member's art work can be viewed.
+A footer section where copyright information and other credits can be displayed.
+Make sure they can be distinguished from each other by giving each section a distinct color.
+
+2	Align the sections as follows:
+
+Make the banner run across the top of the page, the menu or navigation section should reside on the left side under the banner, and the content section should reside on the right side under the banner section. They should be the same height. Make the footer section run under the menu and content sections. To help you align each section, find an optimal size for each div so that each section fits together well. Keep in mind that the content section will be the biggest.
+
+3	Create a basic navigation in the menu section using HTML lists. The main four top-level links will be:
+
+Home
+About Us
+Art
+Contact
+Attached to About Us, the second-level links will be:
+
+The Organization
+The People
+Attached to The People, the third-level links will be:
+
+Our Volunteers
+Our Management
+Make sure each bullet has an ID.
+4	Create a flyout menu using CSS3 and the navigation list from the previous set. Apply formatting so that the font size is 18 and the font family is Arial.
+
+5	Create another navigation menu for the content area to set up links for Pastals, Paints, and Sculpture. To do this, add a div for Pastals, Paints, and Sculpture and then make each a link. The links in this menu should align horizontally, side by side. Make sure there is adequate space between each link.
+
+6	To further enhance this secondary navigation, add an internal style to format it and isolate it from the rest of the content area. It should appear as a static navigation area with the content section. Choose your own values for attributes of font size, background color, dimensions, border, and text alignment.
